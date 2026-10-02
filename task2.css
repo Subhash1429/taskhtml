@@ -1,0 +1,25 @@
+/* Element selector: common properties for all 3 divs */
+div {
+  border: 3px solid black;
+  padding: 15px;
+  margin: 20px;
+  height: 120px;
+  width: 300px;
+}
+
+/* Class selector: second div only */
+.second {
+  background-color: lightblue;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+/* ID selector: third div only */
+#third {
+  background-color: lightgreen;
+  color: brown;
+  font-family: Arial;
+  font-style: italic;
+  text-align: right;
+}
